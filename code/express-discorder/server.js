@@ -18,7 +18,7 @@ app.get("/", (req, res) => res.send(`
 `));
 
 app.post("/github", (req, res) => {
-  const content = ":wave: Hi mom!";
+  const content = ":wave: hi there!";
   const avatarUrl = "https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif";
   axios
     .post(process.env.DISCORD_WEBHOOK_URL, {
